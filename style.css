@@ -1,0 +1,450 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
+
+hr{
+  background-color: #109797;
+}
+
+.header-container{
+  
+  width: 1140px;
+  height: 110px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.header-left{
+  float: left;
+  
+}
+
+.header-right{
+  float: right;
+  
+  margin-top: 15px;
+}
+
+.text{
+  font-size: 80%;
+    font-weight: 400
+}
+.tel{
+  font-weight: 660;
+  font-size: 1.7rem;
+  font-family: inherit;
+}
+
+.logo{
+  width: 350px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+
+.global-container{
+  background-color: #109797;
+  height: 62px;
+}
+.global-nav{
+  width: 1140px;
+  height: 56pxpx;
+  margin: 0 auto;
+  
+}
+.global-nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 56px;
+  text-align: center;
+}
+.nav-link{
+  font-size: 16px;
+  color: #fff;
+  line-height: 56px;
+  display: inline-block;
+  
+}
+
+li{
+  border: solid 0.5px;
+  border-color: #f8f9fa;
+  border-bottom: transparent;
+  border-top: transparent
+}
+.main-photo{
+  width: 1140px;
+  height: 650px;
+  margin:1px auto;  
+}
+
+img{
+  width: 100%;
+  height: 100%;  
+}
+
+
+
+.title{
+  width: 1140px; 
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.subtitle{
+  width: 1140px;
+  margin: 0 auto;
+  font-size: 26px;
+  padding: 10px;
+  background-color: #F9F9F9;
+  border-left: 6px solid #109797;
+  margin-bottom: 15px;
+}
+
+
+
+
+/*コンセプト始まり*/
+#about-wrapper{
+  width: 100%;
+  height: 900px; 
+  padding-bottom: 150px;
+}
+
+.about{
+  width: 1140px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about2{
+  width: 1140px; 
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.about2 p{
+  font-size: 22px;
+  font-weight: bolder;
+  padding-top: 50px;
+  color: #E7656D;
+
+}
+
+.about-photo{
+  width: 300px;
+  height: 320px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #dee2e6;
+}
+.about-photo h3{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about-text p{
+  line-height: 2;
+  font-size: 20px;
+  width: 600px;
+  font-weight: 400;
+}
+
+
+/*ご利用案内始まり*/
+
+#guid-wrapper{
+  width: 100%;
+  height: 900px;
+  background-color: #f8f9fa;
+}
+.guide{
+  width: 1140px; 
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.guide h3{
+  font-size: 25px;
+  font-weight: 600; 
+  color: #109797;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.guide p{
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.time-table{
+  width: 100%;
+  font-size: 20px;
+}
+
+.time-table th,td{
+  border: 1px solid #dee2e6;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.max2 {
+  line-height: 2;
+  
+}
+
+
+
+
+
+.max-item{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.course1 h3{
+  margin-top: 60px;
+}
+
+.course1 h3{
+  margin-top: 60px;
+}
+
+.plan{
+  padding: 10px;
+  margin-top: 10px;
+  border: solid 1px #5e5c5c9a;
+}
+/*ご利用案内終わり*/
+
+
+/*施設案内始まり*/
+#facility-wrapper{
+  width: 100%;
+  height: 1500px;
+  padding-top: 150px;
+}
+
+.facility{
+  width: 1140px; 
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.facility-container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+/*施設案内終わり*/
+
+/*スタッフ紹介始まり*/
+.staff-wrapper{
+  padding-top: 150px;
+
+}
+
+.staff{
+  width: 1140px; 
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.pt{
+  margin-top: 80px;
+}
+.pt-photo{
+  display: flex;
+  justify-content: left;
+ 
+  
+}
+
+.pt-photo img{
+  width: 300px;
+  height: 320px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #dee2e6;
+  margin-left: 30px;
+}
+
+.pt h3{
+  font-size: 25px;
+  font-weight: 600; 
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+
+/*採用情報*/
+.contents{
+  background-color: #DDF0F6;
+  font-size: 15px;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+}
+.contents2{
+  width: 700px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.recruit table{
+  border: #000000d0 solid 1px;
+}
+.recruit li{
+  list-style: none;
+}
+
+
+/*アクセス始まり*/
+
+#location-wrapper{
+  width: 100%;
+  height: 900px;
+}
+.location{
+  width: 1140px; 
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.location-info{
+  width: 30%;
+}
+.location-info h3{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.location-info p{
+  line-height: 2;
+  font-size: 20px;
+}
+.location-map{
+  width: 70%;
+}
+/*アクセス終わり*/
+
+/*フッター始まり*/
+footer{
+  background-color: #109797;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+}
+
